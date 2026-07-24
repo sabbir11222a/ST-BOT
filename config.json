@@ -27,7 +27,7 @@
     "notes": "Bio update system. When enabled, bot will update user bio on startup. If updateOnce is true, bio will only be updated once and not on every restart. Leave bioText empty to disable."
   },
   "antiInbox": true,
-  "nickNameBot": "ST | BOT",
+  "nickNameBot": "SABU | BOT",
   "prefix": "!",
   "usePrefix": {
     "enable": true,
@@ -40,15 +40,15 @@
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": [],
+  "adminBot": [61591259846932],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": [],
+    "whiteListIds": [61591259846932],
     "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
   },
   "whiteListModeThread": {
     "enable": false,
-    "whiteListThreadIds": [],
+    "whiteListThreadIds": [61591259846932],
     "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
     "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
   },
